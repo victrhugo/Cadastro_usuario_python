@@ -2,7 +2,6 @@ import sys
 
 usuario_cadastro = input('Digite seu usuario: ').strip()
 senha_cadastro = input('Digite sua senha: ').strip()
-cadastro_inicial = usuario_cadastro, senha_cadastro
 
 if not usuario_cadastro or not senha_cadastro:
     print('Não há usuario ou senha.')
